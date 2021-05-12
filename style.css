@@ -4,6 +4,10 @@ body {
     font-size: 30px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* Body Header */
 
@@ -437,8 +441,8 @@ input:focus select:focus textarea:focus button:focus {
 .timeline-box::after {
     content: "";
     position: absolute;
-    width: .9rem;
-    height: .9rem;
+    width: 0.9rem;
+    height: 0.9rem;
     background-color: lightgrey;
     top: 35%;
     border-radius: 50%;
@@ -568,6 +572,15 @@ input:focus select:focus textarea:focus button:focus {
 .text-highlight {
     color: #2857a4;
     font-weight: 600;
+    text-decoration: none;
+}
+
+.mb-red-purple {
+    background-color: #ab274f;
+}
+
+.mb-yellow {
+    background-color: rgb(255, 230, 102);
 }
 
 .mb-orange {
@@ -578,8 +591,8 @@ input:focus select:focus textarea:focus button:focus {
     background-color: #0b8176;
 }
 
-.mb-light-purple {
-    background-color: #93738c;
+.mb-dark-purple {
+    background-color: #751761;
 }
 
 
@@ -628,7 +641,7 @@ input:focus select:focus textarea:focus button:focus {
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
     #timeline-divider {
         left: 8%;
     }
